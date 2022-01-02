@@ -1,0 +1,60 @@
+.cardPhone {
+  box-shadow: 6px 6px 12px #e2ebfc, -6px -6px 12px #fff;
+  background-color: #f5f9fe !important;
+  border: none !important;
+  padding: 30px;
+  margin-bottom: 30px;
+
+  img {
+    box-shadow: 6px 6px 12px #e2ebfc, -6px -6px 12px #fff;
+    border-radius: 8px;
+    flex-shrink: 0;
+    width: 100%;
+  }
+
+  .cardPhone__title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1d365e;
+    margin-bottom: 7px;
+    line-height: 1.2;
+  }
+
+  .cardPhone__text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #1d365e;
+    line-height: 1.5;
+    margin-bottom: 14px;
+  }
+
+  .cardPhone__rating {
+    color: #f9d412;
+
+    i {
+      font-weight: 900;
+      font-size: 14px;
+    }
+  }
+}
+
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.75rem;
+}
